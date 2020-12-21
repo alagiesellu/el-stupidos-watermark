@@ -78,13 +78,13 @@ export default {
           case "bottomleft":
             pos = {
               x: this.meta.w - this.qr_code_size,
-              y: 0,
+              y: 3,
             };
             break;
           case "bottomright":
             pos = {
-              x: 0,
-              y: 0,
+              x: 3,
+              y: 3,
             };
             break;
           case "topleft":
@@ -95,7 +95,7 @@ export default {
             break;
           case "topright":
             pos = {
-              x: 0,
+              x: 3,
               y: this.meta.h - this.qr_code_size,
             };
             break;
