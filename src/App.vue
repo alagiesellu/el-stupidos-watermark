@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img height="50px" alt="Vue logo" src="./assets/logo.png">
+    <img height="50px" alt="Vue logo" src="favicon.ico">
     <HelloWorld msg="El Stupidos Watermark"/>
 
     <input type="file" @change="onFileChange" />
@@ -103,7 +103,7 @@ export default {
 
         mergeImages([
           { src: this.url, height: '100px' },
-          { src: '/QRcode.png', height: '100px', x: pos.x, y: pos.y },
+          { src: 'el-stupidos-watermark/QRcode.png', height: '100px', x: pos.x, y: pos.y },
         ])
                 .then(b64 => {
                   this.frames.push({
