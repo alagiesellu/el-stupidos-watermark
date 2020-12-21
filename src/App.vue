@@ -103,7 +103,7 @@ export default {
 
         mergeImages([
           { src: this.url, height: '100px' },
-          { src: 'el-stupidos-watermark/QRcode.png', height: '100px', x: pos.x, y: pos.y },
+          { src: 'QRcode.png', height: '100px', x: pos.x, y: pos.y },
         ])
                 .then(b64 => {
                   this.frames.push({
