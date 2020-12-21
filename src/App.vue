@@ -76,27 +76,31 @@ export default {
         switch (mode) {
 
           case "bottomleft":
+            // top-right
             pos = {
-              x: this.meta.w - this.qr_code_size,
+              x: this.meta.w - this.qr_code_size -3,
               y: 3,
             };
             break;
           case "bottomright":
+            // top-left
             pos = {
               x: 3,
               y: 3,
             };
             break;
           case "topleft":
+            // bottom-right
             pos = {
-              x: this.meta.w - this.qr_code_size,
-              y: this.meta.h - this.qr_code_size,
+              x: this.meta.w - this.qr_code_size - 3,
+              y: this.meta.h - this.qr_code_size - 3,
             };
             break;
           case "topright":
+            // bottom-left
             pos = {
               x: 3,
-              y: this.meta.h - this.qr_code_size,
+              y: this.meta.h - this.qr_code_size - 3,
             };
             break;
         }
