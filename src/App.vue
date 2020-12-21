@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      qr_code_size: 50,
+      qr_code_size: 100,
       meta: {},
       url: null,
       frames: [],
